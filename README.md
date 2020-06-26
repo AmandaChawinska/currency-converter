@@ -5,7 +5,7 @@
 - CSS
 - Java Script
 ## Screenshot
-![currency converter](https://raw.githubusercontent.com/AmandaChawinska/currency-converter/master/currency.png)
+![currency converter](https://raw.githubusercontent.com/AmandaChawinska/currency-converter/master/currencywithbackground.png)
 
 ## Link
 https://amandachawinska.github.io/currency-converter/
