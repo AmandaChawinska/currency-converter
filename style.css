@@ -21,7 +21,7 @@ html {
 
 
 .container__header {
-  background-color: hsl(0, 100%, 60%);
+  background-color: #ff3333;
   border: 5px solid black;
   border-radius: 20px;
   padding: 20px 0;
@@ -29,16 +29,17 @@ html {
 }
 
 .form__fieldset {
-  border-color: yellow;
+  border-color: #ffff00;
   border-radius: 25px;
   width: 50%;
   display: inline-block;
+  background-color: aliceblue;
 }
 
 .form__legend {
   border: 2px dashed;
   border-radius: 10px;
-  background-color: hsl(64, 72%, 50%);
+  background-color: #cfdb24;
   color: black;
   font-size: 20px;
   padding: 10px;
@@ -55,7 +56,7 @@ html {
   border-radius: 20px;
   padding: 15px;
   border: none;
-  background-color: hsl(64, 72%, 50%);
+  background-color: #cfdb24;
   margin: 30px;
   line-height: 1.5;
   text-transform: uppercase;
