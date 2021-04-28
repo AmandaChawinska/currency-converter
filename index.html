@@ -22,17 +22,17 @@
         <form class="form js-form">
             <fieldset class="form__fieldset">
                 <legend class="form__legend">Wymiana waluty</legend>
-                <p class="form__paragraph">
+                <p>
                     <label>
                         <span class="form__labelText">
-                        Wybierz wartość*: </span>
-                        <input class="js-amount"  type="number" min="0" step="0.01" required>
+                            Wybierz wartość*: </span>
+                        <input class="js-amount" type="number" min="0" step="0.01" required>
                     </label>
                 </p>
-                <p class="form__paragraph">
+                <p>
                     <label>
                         <span class="form__labelText">Posiadam walutę:</span>
-                        <select class="form__field--select js-change">
+                        <select class=" js-changeFrom">
                             <option value="PLN">PLN</option>
                             <option value="EUR">EUR</option>
                             <option value="USD">USD</option>
@@ -41,10 +41,10 @@
                         </select>
                     </label>
                 </p>
-                <p class="form__paragraph">
+                <p>
                     <label>
                         <span class="form__labelText">Chcę otrzymać:</span>
-                        <select class="form__field--select js-changeOn">
+                        <select class=" js-changeOn">
                             <option value="PLN">PLN</option>
                             <option value="EUR">EUR</option>
                             <option value="USD">USD</option>
@@ -53,16 +53,16 @@
                         </select>
                     </label>
                 </p>
-            <p class="form__paragraph--button">
-                <button class="form__button js-currency">Przelicz</button>
-                <button class="form__button js-resetButton" type="reset">Od nowa</button>
-            </p>
-            <p class="form__result">Otrzymana kwota: <span class="form__result js-result">N/A</span> </p>
-        </fieldset>
+                <p>
+                    <button class="form__button js-currency">Przelicz</button>
+                    <button class="form__button js-resetButton" type="reset">Od nowa</button>
+                </p>
+                <p class="form__result">Otrzymana kwota: <span class="form__result js-result">N/A</span> </p>
+                <p>Pole oznaczone * jest obowiązkowe.<br>Kurs walut z dnia 25.06.2020 r.</p>
+            </fieldset>
         </form>
-        <p class="form__paragraph">Pole oznaczone * jest obowiązkowe.<br>Kurs walut z dnia 25.06.2020 r.</p>
     </div>
-  
+
 </body>
 
 </html>

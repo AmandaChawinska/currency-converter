@@ -42,7 +42,7 @@
 
   const convertMoney = () => {
 
-      const changeFrom = document.querySelector(".js-change").value;
+      const changeFrom = document.querySelector(".js-changeFrom").value;
       const changeOn = document.querySelector(".js-changeOn").value;
 
       const finalResult = document.querySelector(".js-result");
